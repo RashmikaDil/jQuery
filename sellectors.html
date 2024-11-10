@@ -10,6 +10,10 @@
     <button id="click">ID</button>
     <button class="click">class</button> 
     <f>elements</f>   
+<hr>
+    <h1>Attribute Selectors </h1>
+    <a href="">Attribute</a>
+    <input type="checkbox">Attribute:Value
     <script>
         //Basic Selectors
 
@@ -29,6 +33,17 @@
             alert("element selectors")
         })
 
+        //Attribute Selectors
+
+        //Attribute
+        $('[href]').click(function(){
+            alert("Attribute")
+        })
+
+        //Attribute:Value 
+        $('[type="checkbox"]').click(function(){
+            alert("Attribute:Value ")
+        })
 
 
 
